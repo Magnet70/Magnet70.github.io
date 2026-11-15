@@ -1,0 +1,27 @@
+Clara Stone website · update 1.1 · November 16, 2026
+
+WHAT CHANGED
+1. About-page Clara logo: true 1:1 circle at every screen width.
+2. Reader Club: official MailerLite live JavaScript form R6oLGc, account 2674318.
+3. Reader Club: bespoke forest green and ivory form styling, improved welcome copy, no dummy input.
+4. README: updated with accurate setup instructions.
+
+WHAT DID NOT CHANGE
+All other pages, book listings, affiliate links, images, layout, menus and site design.
+
+TO UPDATE GITHUB PAGES
+Extract the complete ZIP, then upload its contents to your existing repository, replacing existing files.
+Or extract the smaller changed-files-only ZIP, and upload the assets and reader-club directories plus README.md at the repository root.
+Verify Settings > Pages is still using main / (root). Do not upload the ZIP itself.
+
+MAILERLITE CAPTCHA (IMPORTANT)
+The HTML you supplied includes reCAPTCHA. To safely remove the visitor-facing challenge,
+open MailerLite > Forms > the embedded form R6oLGc > Edit > Settings, uncheck reCAPTCHA,
+and save/publish the form. The official JavaScript embed then loads the updated form.
+Do not conceal the challenge with CSS or delete its widget in HTML while it is still required server-side.
+
+MAILERLITE TEST
+On the publicly deployed Reader Club page, subscribe using a fresh testing email.
+If MailerLite double opt-in is enabled, confirm the address. Verify subscriber group and automation,
+then check the welcome message and access to all five gifts.
+The previous MailerLite landing-page backup URL has intentionally not changed.
